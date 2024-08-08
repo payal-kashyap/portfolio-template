@@ -1,0 +1,429 @@
+/* #000f35 */
+
+#body{
+    background-color: rgb(251, 251, 238);
+}
+#particles-section {
+    position: relative;
+    overflow: hidden;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensures particles are behind other content */
+}
+
+#header{
+    /* background-color: rgb(3, 10, 62); */
+    background-color: #015481;
+    height: 3em;
+    /* border-bottom: 2px solid #0ef; */
+}
+.logo{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: 800;
+}
+.logo:hover{
+    color: rgb(255, 255, 255);
+}
+#header li a{
+    color: black;
+    border-radius: 10px;
+    font-weight: 700;
+}
+#header li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    font-weight: 700;
+}
+#my-pic-name{
+    background-color: black;
+    background-image: url(images/bg-try2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.my-name{
+    margin: 5em 3em 4em 2em;
+    text-align: center;
+    background: rgba(1, 84, 129,0.4);
+box-shadow: 0 8px 32px 0 rgba(32, 43, 188, 0.37);
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+width: 60%;
+}
+.hlo-name{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    /* background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0.6em;
+    box-shadow: 3px 3px 8px #0097e6; */
+    margin-top: 3em;
+}
+.hlo-name:hover{
+    box-shadow: 3px 3px 8px black;
+
+}
+.intro{
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 0;font-style: oblique;
+}
+.name{
+    color: #00081c;
+    font-style: oblique;
+    margin-bottom: 0;
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+    font-weight: 900;
+}
+.dev{
+    color: #00081c;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.experience{
+    font-style: italic;
+    font-size: 1em;
+    color: bisque;
+    margin-top: 3em;
+}
+.go-to-about-me-button a{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 2em;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 0.5em;
+    box-shadow: 3px 3px 8px #0097e6;
+    border-radius: 5px;
+}
+.go-to-about-me-button a:hover{
+    background-color: #0097e6;
+    box-shadow: 3px 3px 8px black;
+}
+.icon-font{
+    color: #0097e6;
+    margin: 1em;
+    font-size: 1.1em;
+}
+.icon-font:hover{
+    color: black;
+}
+
+/* #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
+ 
+.my-pic img{
+    width: 70%;
+    border-radius: 50%;
+    border: 2px solid #0097e6;
+    box-shadow: 8px 8px 40px #0097e6;
+    margin: 7em 3em 0em 2em;
+    text-align: center;
+}
+@media (max-width:770px){
+    .my-pic img{
+        margin-top: 2em;
+        width: 55%;
+    }
+}
+@media (max-width:992px) and (min-width:770px){
+    .my-pic img{
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+.my-pic img:hover{
+    box-shadow: 6px 6px 30px black;
+}
+.about-me-img img{
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid #0097e6;
+    box-shadow: 8px 8px 40px #0097e6;
+    margin: 25%;
+    text-align: center;
+}
+@media (max-width:990px) and (min-width:770px){
+    .about-me-img img{
+        width: 75%;
+        margin-top: 10em;
+        margin-bottom: 3em;
+        margin-left: 8%;
+    }
+}
+@media (max-width:770px){
+    .about-me-img img{
+        width: 55%;
+        margin-top: 0em;
+        margin-bottom: 3em;
+        margin-left: 25%;
+    }
+}
+/* #about-me{
+    background-color: black;
+} */
+.section{
+  
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.section-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 8%;
+
+}
+.section-head-diff-color{
+    color: #0097e6;
+}
+.section-head-diff-color-dark{
+    color: #ffffff;
+}
+#about-me{
+    background-color: rgba(1, 84, 129, 0.65);
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;
+}
+.about-me-head{
+    color: #ffffff;
+    font-weight: 700;
+}
+.about-me-para{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: black;
+    text-align: justify;
+    font-weight: 650;
+}
+
+/* #my-services{
+    background-color: black;
+} */
+.service-box{
+    box-shadow: 6px 6px 15px #00081c;
+    margin-top: 1em;
+    /* border: 2px solid #0097e6; */
+    background-color: rgba(0, 151, 230,0.4);
+
+}
+@media (max-width: 770px) {
+    .service-box {
+        margin-top: 5em;
+    }
+}
+.service-box:hover{
+    box-shadow: 6px 6px 25px black;
+}
+.service-box-content{
+    padding: 1.5em;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon-services{
+    color: #0097e6;
+    padding-bottom: 1em;
+    font-size: 1.6em;
+}
+.services-head{
+    color: black;
+    font-style: oblique;
+    font-weight: 700;
+    padding-bottom: 0.5em;
+    
+}
+.services-para{
+    color: black;
+    
+}
+.learn-more-button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 600;
+    margin: 2em 3em 0em 0em;
+    background-color: #0097e6;
+    padding: 0.5em;
+    box-shadow: 3px 3px 8px #ffffff;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.learn-more-button a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    box-shadow: 4px 4px 8px #0097e6;
+    font-weight: 600;
+}
+.skills-head{
+    color: black;
+    font-style: oblique;
+    margin-bottom: 1em;
+}
+.progress-bars{
+    width: 85%;
+}
+.font-progress{
+    color: #0097e6;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+.progress-head{
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+}
+#my-showcase{
+    background-color: rgba(1, 84, 129, 0.65);
+    padding-bottom: 2.5em;
+}
+.showcase-box{
+    
+    box-shadow: 10px 10px 20px #00081c;
+    height: 20em;
+    overflow: hidden;
+    position: relative;
+}
+@media (max-width:770px){
+    .shoecase-box{
+        margin-top: 5em;
+    }
+}
+.showcase-box img{
+    height: 100%;
+    width: 100%;
+    
+}
+.showcase-img-hover-text{
+    background-color: rgba(0, 0, 0, 0.93);
+    color: black;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    padding: 2em;
+    box-sizing: border-box;
+transition: all 1s;
+}
+.showcase-box:hover .showcase-img-hover-text{
+    left: 0;
+}
+.showcase-box:hover{
+    box-shadow: 6px 6px 25px black;
+}
+.img-hover-text-head{
+    padding: 0.3em;
+    color: #0097e6;
+    width: fit-content;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    border-radius: 15px 5px 15px 5px;
+    font-weight: 800;
+}
+.img-hover-text-para{
+    color: rgb(255, 255, 255);
+}
+.img-hover-text-more a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 600;
+    margin: 2em 3em 0em 0em;
+    background-color: #0097e6;
+    padding: 0.5em;
+    box-shadow: 3px 3px 8px #ffffff;
+    border-radius: 15px;
+    width: fit-content;
+}
+.img-hover-text-more a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    box-shadow: 4px 4px 8px #0097e6;
+    font-weight: 600;
+}
+#my-resume p{
+    margin-top: 0em;
+    font-weight: 700;
+
+}
+#my-resume h3{
+    margin-top: 0em;
+    font-weight: 900;
+    color: black;
+}
+.resume-pdf iframe{
+    width: 25%;
+    height: 15em;
+    border: 4px solid #000000;
+    border-radius: 5px;
+}
+
+#contact-me{
+    background-color: rgba(1, 84, 129, 0.65);
+    padding-bottom: 2.5em;
+}
+.contact-me-head{
+    color: #ffffff;
+    font-weight: 800;
+}
+.contact-me-para{
+    color: black;
+    padding: 1em 0em 1.5em 0em;
+}
+.details-contact{
+    color: black;
+    font-weight: 600;
+    padding-left: 1em;
+    font-size: 1.2em;
+}
+.details-fontawesome-contact{
+    color: #0097e6;
+    font-size: 1.4em;
+}
+form{
+    margin-top: 10%;
+}
+.form-types{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 80%;
+    margin: 1.3em 0em 1em 2em;
+    box-shadow: 3px 3px 8px #0097e6;
+}
+.form-types:hover{
+    background-color: rgba(152, 2, 49, 0.6);
+    box-shadow: 3px 3px 8px black;
+}
+.submit-btn-form{
+    background-color: #0097e6;
+    box-shadow: 3px 3px 7px black;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 8px;
+    color: black;
+    text-decoration: none;
+    margin-left: 2em;
+}
+.horizontal-line{
+    border: 2px solid #015481;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2em;
+}
